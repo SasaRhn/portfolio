@@ -1,8 +1,0 @@
-[build]
-    publish = "build/"
-    function = './function'
-
-[[redirects]]
-    from = "/api/*"
-    to = "/.netflily/function/:splat"
-    status = 200

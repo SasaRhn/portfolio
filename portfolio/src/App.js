@@ -22,6 +22,7 @@ résolution de problèmes et en collaboration.</p>
           <ul>
             <li>
               <h3>Puissance 4</h3>
+              <img src= "./asset/myh5ai.png"></img>
               <p></p>
             </li>
             <li>
