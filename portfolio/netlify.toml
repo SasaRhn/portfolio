@@ -1,3 +1,8 @@
 [build]
-  command = "npm run build"
-  publish = "build"
+    publish = "build/"
+    function = './function'
+
+[[redirects]]
+    from = "/api/*"
+    to = "/.netflily/function/:splat"
+    status = 200
