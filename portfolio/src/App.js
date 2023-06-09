@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { ContactUs } from './components/contact';
 import { Slide } from "react-awesome-reveal";
-import Myh5ai  from "./asset/Myh5ai.png";
+import Myh5ai  from "../asset/Myh5ai.png";
 import Joel from "./asset/Joel.jpg"
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
             <h3>Futur Dev HTML, CSS, JS, PHP</h3>
             </div>
           </Slide>
-          <h2 className='Titre-presentation'>Ma presentation</h2>
+          <h2 className='Titre-Cate'>Ma presentation</h2>
         <section className='Presentation'>
           <img className='Image-Joel' src={Joel}/>
           <div>
@@ -48,17 +48,20 @@ function App() {
             </p>
           </div>
         </section>
-        <section>
-          <h2>Projets</h2>
-          <ul>
-            <li>
-              <h3>My h5ai</h3>
-              <img className='Image-Projet' src={Myh5ai}/>
-            </li>
-          </ul>
+        <h2 className='Titre-Cate'>Projets</h2>
+        <section className='Projet'>
+          <div>
+            <h3>My h5ai</h3>
+            <img className='Image-Projet' src={Myh5ai}/>
+          </div>
+          <div>
+            <h3>My Cinema</h3>
+            <p></p>
+            <img className='Image-Projet' src={Myh5ai}/>
+          </div>
         </section>
+        <h2 className='Titre-Cate'>Contact</h2>
         <section>
-          <h2>Contact</h2>
           <ContactUs />
         </section>
       </main>
