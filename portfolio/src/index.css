@@ -3,7 +3,68 @@ html {
     color: #ffd700;
 }
 .titre-Aceuil {
+  font-family: Georgia, serif;
   padding-left: 100px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 400px;
+  padding-bottom: 300px;
+  line-height: 10px;
+
+}
+.Image-Projet {
+  width: 400px;
+}
+.Image-Projet :hover {
+  width: 450px;
+  background-color: rgba(105, 105, 105, 0.6);;
+}
+.TétedePage{
+  background-color: #ffd700;
+  height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  color: #022c43;
+}
+body {
+margin: 0px;
+}
+button {
+  display: inline-block;
+  background-color: #022c43;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+button:hover {
+  background-color: green;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+}
+.EntreDeux{
+  width: auto;
+  height: 50px;
+}
+.Presentation 
+{
+  display: flex;
+  font-size: 30px;
+  padding: 20px;
+}
+.Text-Presentation {
+  padding-left: 30px;
+}
+.Titre-presentation{
+  padding-left: 100px;
 }
