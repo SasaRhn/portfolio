@@ -61,6 +61,7 @@ button span {
   display: flex;
   font-size: 30px;
   padding: 20px;
+  justify-content: space-around;
 }
 .Text-Presentation {
   padding-left: 30px;
@@ -68,4 +69,40 @@ button span {
 .Titre-Cate{
   padding-left: 100px;
   font-size: 40px;
+}
+.Image-Joel{
+  width: 100%;
+  object-fit: contain;
+}
+.MyH5ai {
+  display: flex;
+  font-size: 30px;
+  padding: 20px;
+  justify-content: space-around;
+}
+.Batllship {
+  display: flex;
+  font-size: 30px;
+  padding: 20px;
+  justify-content: space-around;
+}
+h3.titre{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 200px;
+}
+.Image-Projet {
+  width: 700px;
+  object-fit: contain;
+}
+.droit{
+  text-align: center;
+}
+#sectionContact{
+  display: flex;
+  flex-direction: column;
+}
+.Texte-Projet{
+text-align: left;
+
 }
