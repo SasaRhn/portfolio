@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import { ContactUs } from './components/contact';
 import { Slide } from "react-awesome-reveal";
-import Myh5ai  from "./";
-import Joel from "./asset/Joel.jpg"
+import Myh5ai  from "./asset/Myh5ai.png";
+import Joel from "./asset/Joel.jpg";
 
 function App() {
   return (
