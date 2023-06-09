@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import { ContactUs } from './components/contact';
 import { Slide } from "react-awesome-reveal";
-// import Myh5ai  from "./";
-// import Joel from "./asset/Joel.jpg"
+import Myh5ai  from "./";
+import Joel from "./asset/Joel.jpg"
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
           </Slide>
           <h2 className='Titre-Cate'>Ma presentation</h2>
         <section className='Presentation'>
-          {/* <img className='Image-Joel' src={Joel}/> */}
+          <img className='Image-Joel' src={Joel}/>
           <div>
           <p className='Text-Presentation'>
               Salut tout le monde !
@@ -52,12 +52,12 @@ function App() {
         <section className='Projet'>
           <div>
             <h3>My h5ai</h3>
-            {/* <img className='Image-Projet' src={Myh5ai}/> */}
+            <img className='Image-Projet' src={Myh5ai}/>
           </div>
           <div>
             <h3>My Cinema</h3>
             <p></p>
-            {/* <img className='Image-Projet' src={Myh5ai}/> */}
+            <img className='Image-Projet' src={Myh5ai}/>
           </div>
         </section>
         <h2 className='Titre-Cate'>Contact</h2>
