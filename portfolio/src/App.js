@@ -1,10 +1,11 @@
-import React from 'react';
-import './App.css';
-import { ContactUs } from './components/contact';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import "./App.css";
 import { Slide } from "react-awesome-reveal";
 import Myh5ai  from "./asset/Myh5ai.png";
 import Joel from "./asset/Joel.jpg";
 import Battlships from "./asset/Battleship.png";
+import CV from "./asset/CV.png";
 
 
 function App() {
@@ -14,6 +15,19 @@ function App() {
         section.scrollIntoView({ behavior: 'smooth' });
       }
     };
+    const form = useRef();
+    const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_24v4g5o", "template_4u0ustf", form.current, "nTesUKNDbTvN1g_sj").then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+  };
   
     return (
       <div className="App">
@@ -28,7 +42,7 @@ function App() {
       <main>
           <Slide delay="10" duration="2000">
             <div className='titre-Aceuil'>
-            <h1>Mon Portfolio</h1>
+            <h1>Mon portfolio</h1>
             <br></br>
             <h3>Sabri REHOUNI</h3>
             <br></br>
@@ -84,7 +98,7 @@ function App() {
             <div>
               <Slide delay="10" duration="2000">
               <p className='Texte-Projet'>
-              J’ai repris un projet inachevé de quelqu’un d’autre.
+              J’ai repris  projet de quelqu’un d’autre.
               J’ai dû le débugger et terminer le projet.
               Le projet non fini était la reproduction du grand jeu de la bataille naval.
               La complicité de ce projet ct surtout la partie debug le fait de reprendre un code que l’on ne connait pas ses pas facile.
@@ -95,10 +109,21 @@ function App() {
             <img className='Image-Projet' src={Battlships}/>
           </div>
         </section>
-        <h2 className='Titre-Cate'>Contact</h2>
+        <h2 className='Titre-Cate2'>Contact</h2>
         <section id='sectionContact'>
-          <ContactUs />
+        <div className="container2">
+          <form ref={form} onSubmit={sendEmail} className="form">
+            <label className="mail">Name</label>
+            <input type="text" name="name" className="mail"/>
+            <label className="mail">Email</label>
+            <input type="email" name="email" className="mail"/>
+            <label className="mail">Message</label>
+            <textarea name="message" className="mail"/>
+            <button type="submit" className="mail">Envoyer</button>
+          </form>
+    </div>
         </section>
+          <a className='lientel' href={CV} download>Cliquez pour télécharger Mon C.V</a>
       </main>
       <footer>
         <p className='droit'>© 2023 Mon Portfolio. Tous droits réservés.</p>
