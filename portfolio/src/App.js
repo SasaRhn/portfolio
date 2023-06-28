@@ -38,6 +38,7 @@ function App() {
   };
 
   return (
+
     <div className="App">
       <header>
         <div className="TétedePage">
@@ -152,15 +153,14 @@ function App() {
               alt="Battleship"
             />
           </div>
-          <a className="lientel1" href="https://github.com/SasaRhn/My_h5ai" target="_blank" rel="noopener noreferrer">
+          <a className="lientel1" href="https://github.com/SasaRhn/Battleships" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </section>
         <h2 className="Titre-Cate2">Contact</h2>
         <section id="sectionContact">
-          <div className="container">
             <div className="section">
-              <div className="container2">
+              <div className="container">
                 <form ref={form} onSubmit={sendEmail} className="form">
                   <label className="mail">Nom</label>
                   <input type="text" name="name" className="mail" />
@@ -171,13 +171,12 @@ function App() {
                   <button type="submit" className="mail">
                     Envoyer
                   </button>
+                  <a className="lientel" href={CV} download>
+                    Cliquez ici pour télécharger Mon C.V
+                  </a>
                 </form>
               </div>
             </div>
-            <a className="lientel" href={CV} download>
-              Cliquez ici pour télécharger Mon C.V
-            </a>
-          </div>
         </section>
       </main>
       <footer>
