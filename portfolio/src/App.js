@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import "./App.css";
 import { Slide } from "react-awesome-reveal";
 import Myh5ai from "./asset/Myh5ai.png";
@@ -22,10 +22,10 @@ function App() {
 
     emailjs
       .sendForm(
-        "service_24v4g5o",
-        "template_4u0ustf",
+        "service_pvzfdwo",
+        "template_s3uyhei",
         form.current,
-        "nTesUKNDbTvN1g_sj"
+        "V0r_-UDxqfhXvCLp4"
       )
       .then(
         (result) => {

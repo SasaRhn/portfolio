@@ -181,7 +181,9 @@ button:active.mail {
 .section {
   flex: 2;
 }
-
+.lientel {
+  font-size: 20px;
+}
 .lientel,
 .lientel1 {
   display: inline-block;
@@ -200,7 +202,6 @@ button:active.mail {
 
 .lientel1 {
   margin-left: 1300px;
-
 }
 footer {
   background-color: #ffd700;
