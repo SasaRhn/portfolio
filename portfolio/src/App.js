@@ -55,7 +55,7 @@ function App() {
       </header>
       <div className="EntreDeux"></div>
       <main>
-        <Slide delay="5" duration="2000">
+        <Slide triggerOnce="true" delay="5" duration="2000">
           <div className="titre-Aceuil">
             <h1>Mon portfolio</h1>
             <br></br>
@@ -68,7 +68,7 @@ function App() {
         <section className="Presentation" id="sectionPresentation">
           <img className="Image-Joel" src={Joel} alt="Joel" />
           <div className="textpre">
-            <Slide direction="right" delay="5" duration="2000">
+            <Slide triggerOnce="true" direction="right"  duration="1000">
               <p className="Text-Presentation">
                 Salut tout le monde ! Sabri Rehouni, un étudiant de première
                 année à Epitech dans la formation de la Web Académie. Je suis
@@ -120,7 +120,7 @@ function App() {
         <section className="Projet" id="sectionProjet">
           <h3 className="titre">My h5ai</h3>
           <div className="MyH5ai">
-            <Slide delay="5" duration="2000">
+            <Slide triggerOnce="true" duration="2000">
               <p className="Texte-Projet">
                 Le but de ce projet était de reproduire le comportement de
                 Myh5ai. Myh5ai est un logiciel couramment utilisé pour parcourir
@@ -136,7 +136,7 @@ function App() {
           <h3 className="titre">Battleship</h3>
           <div className="Batllship">
             <div>
-              <Slide delay="5" duration="2000">
+              <Slide triggerOnce="true" duration="2000">
                 <p className="Texte-Projet">
                   J'ai repris le projet de quelqu'un d'autre. J'ai dû le
                   déboguer et le terminer. Le projet non fini était la
