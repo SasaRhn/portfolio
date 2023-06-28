@@ -1,36 +1,34 @@
 html {
-    background-color: #022c43;
-    color: #ffd700;
+  background-color: #022c43;
+  color: #ffd700;
 }
+
 .titre-Aceuil {
   font-family: Georgia, serif;
-  padding-left: 100px;
-  padding-top: 400px;
-  padding-bottom: 300px;
-  line-height: 10px;
+  padding: 400px 0 300px 100px;
+  line-height: 60px;
   font-size: 60px;
 }
+
 .Image-Projet {
   width: 400px;
 }
-.Image-Projet :hover {
-  width: 450px;
-  background-color: rgba(105, 105, 105, 0.6);;
-}
-.TétedePage{
+
+.TétedePage {
   background-color: #ffd700;
   height: 100px;
-  width: auto;
   display: flex;
   justify-content: space-around;
   color: #022c43;
 }
+
 body {
-margin: 0px;
+  margin: 0;
 }
 
-.Titre-Cate2{
-  text-align: center;
+.Titre-Cate2 {
+  text-align: left;
+  margin-left: 300px;
   font-size: 40px;
 }
 
@@ -44,74 +42,78 @@ button {
   font-size: 28px;
   padding: 20px;
   width: 300px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
 }
+
 button:hover {
   background-color: green;
 }
+
 button span {
   cursor: pointer;
   display: inline-block;
 }
-.EntreDeux{
+
+.EntreDeux {
   width: 150px;
   height: 50px;
 }
-.Presentation 
-{
+
+.Presentation {
   display: flex;
   font-size: 30px;
   padding: 20px;
   justify-content: space-around;
 }
+
 .Text-Presentation {
   padding-left: 30px;
 }
-.Titre-Cate{
+
+.Titre-Cate {
   padding-left: 100px;
   font-size: 40px;
 }
-.Image-Joel{
+
+.Image-Joel {
   width: 100%;
   object-fit: contain;
 }
-.MyH5ai {
-  display: flex;
-  font-size: 30px;
-  padding: 20px;
-  justify-content: space-around;
-}
+
+.MyH5ai,
 .Batllship {
   display: flex;
   font-size: 30px;
   padding: 20px;
   justify-content: space-around;
 }
-h3.titre{
+
+h3.titre {
   font-size: 30px;
   text-align: center;
   padding-top: 200px;
 }
+
 .Image-Projet {
   width: 700px;
   object-fit: contain;
 }
-.droit{
+
+.droit {
   text-align: center;
 }
-#sectionContact{
+
+#sectionContact {
   display: flex;
   flex-direction: column;
 }
-.Texte-Projet{
-text-align: left;
 
+.Texte-Projet {
+  text-align: left;
 }
+
 .container {
   display: flex;
   justify-content: center;
@@ -127,38 +129,21 @@ text-align: left;
 label.mail {
   font-size: 16px;
   font-weight: 600;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin: 10px 0 5px;
 }
 
-input.mail {
-  padding: 5px;
-  font-size: 16px;
-  border-width: 1px;
-  border-color: #cccccc;
-  background-color: #ffffff;
-  color: #000000;
-  border-style: solid;
-  border-radius: 0px;
-  box-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75);
-}
-
+input.mail,
 textarea.mail {
   padding: 5px;
   font-size: 16px;
-  border-width: 1px;
-  border-color: #cccccc;
+  border: 1px solid #cccccc;
   background-color: #ffffff;
   color: #000000;
-  border-style: solid;
-  border-radius: 0px;
-  box-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75);
+  border-radius: 0;
+  box-shadow: 0 0 5px rgba(66, 66, 66, 0.75);
 }
 
-input.mail:focus {
-  outline: none;
-}
-
+input.mail:focus,
 textarea.mail:focus {
   outline: none;
 }
@@ -173,9 +158,6 @@ button.mail {
   font-size: 28px;
   padding: 10px;
   width: 291px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
   margin-top: 20px;
@@ -190,88 +172,34 @@ button:active.mail {
   outline: none;
   top: 1px;
 }
-.lientel {
+
+.container {
+  display: flex;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.section {
+  flex: 2;
+}
+
+.lientel,
+.lientel1 {
   display: inline-block;
   padding: 10px 20px;
   background-color: #022c43;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
-.lientel:hover {
-  background-color: #5cbf2a;
-}
-.container2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+.lientel:hover,
+.lientel1:hover {
+  background-color: #555;
 }
 
-@media screen and (max-width: 768px) {
-  .titre-Aceuil {
-    padding: 100px;
-  }
-  .Image-Projet {
-    width: 100%;
-  }
-  .Titre-Cate,
-  .Titre-Cate2 {
-    padding-left: 0;
-    text-align: center;
-  }
-  .Presentation {
-    flex-direction: column;
-  }
-  .Text-Presentation,
-  .Texte-Projet {
-    padding: 10px;
-    font-size: 20px;
-  }
-  .Image-Projet {
-    width: 100%;
-    object-fit: cover;
-  }
-  .container {
-    align-items: flex-start;
-  }
-  .form {
-    width: 100%;
-  }
-  button {
-    width: 100%;
-    margin: 5px 0;
-  }
-}
+.lientel1 {
+  text-align: right;
 
-/* Media queries pour les petits écrans */
-@media screen and (max-width: 480px) {
-  .titre-Aceuil {
-    font-size: 40px;
-    padding: 50px;
-  }
-  .Titre-Cate,
-  .Titre-Cate2 {
-    font-size: 30px;
-  }
-  .Presentation,
-  .MyH5ai,
-  .Batllship {
-    flex-direction: column;
-    align-items: center;
-  }
-  .Text-Presentation,
-  .Texte-Projet {
-    padding: 10px;
-    font-size: 18px;
-    text-align: center;
-  }
-  .Image-Joel,
-  .Image-Projet {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
 }
