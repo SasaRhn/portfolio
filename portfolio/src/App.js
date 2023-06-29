@@ -86,7 +86,7 @@ function App() {
                 déjà réalisé plusieurs projets tels que Myh5ai que vous pouvez
                 voir dans la partie "Mes projets" de mon portfolio.
               </p>
-              <p className="Text-Presentation">
+              <p className="Text-Presentation1">
                 Mais ce qui me passionne le plus, ce sont les serveurs et les
                 datacenters. J’ai déjà commencé à faire de petites structures
                 personnelles afin d’héberger des bases de données en MySQL sur
@@ -98,7 +98,7 @@ function App() {
                 envie de me spécialiser dans ce domaine et d'en apprendre
                 davantage sur les technologies qui les alimentent.
               </p>
-              <p className="Text-Presentation">
+              <p className="Text-Presentation1">
                 Ce portfolio est un premier pas dans cette direction. J'espère
                 pouvoir partager avec vous mes projets, mes expériences et mes
                 apprentissages tout au long de mon parcours à Epitech. Je suis
@@ -106,7 +106,7 @@ function App() {
                 et me permettre de concrétiser mes rêves dans le monde du
                 développement Web.
               </p>
-              <p className="Text-Presentation">
+              <p className="Text-Presentation1">
                 Je suis impatient de faire partie de cette communauté dynamique
                 et de rencontrer des personnes partageant les mêmes passions que
                 moi. Si vous avez des questions, des conseils ou si vous voulez
@@ -163,9 +163,9 @@ function App() {
               <div className="container">
                 <form ref={form} onSubmit={sendEmail} className="form">
                   <label className="mail">Nom ;</label>
-                  <input type="text" name="name" className="mail" /><br></br>
+                  <input type="text" name="name" className="mail" />
                   <label className="mail">Email ;</label>
-                  <input type="email" name="email" className="mail" /><br></br>
+                  <input type="email" name="email" className="mail" />
                   <label className="mail">Message ;</label>
                   <textarea name="message" className="mail" />
                   <button type="submit" className="mail">
