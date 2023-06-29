@@ -162,11 +162,11 @@ function App() {
             <div className="section">
               <div className="container">
                 <form ref={form} onSubmit={sendEmail} className="form">
-                  <label className="mail">Nom</label>
-                  <input type="text" name="name" className="mail" />
-                  <label className="mail">Email</label>
-                  <input type="email" name="email" className="mail" />
-                  <label className="mail">Message</label>
+                  <label className="mail">Nom ;</label>
+                  <input type="text" name="name" className="mail" /><br></br>
+                  <label className="mail">Email ;</label>
+                  <input type="email" name="email" className="mail" /><br></br>
+                  <label className="mail">Message ;</label>
                   <textarea name="message" className="mail" />
                   <button type="submit" className="mail">
                     Envoyer

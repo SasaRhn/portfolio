@@ -1,208 +1,301 @@
-html {
-  background-color: #022c43;
-  color: #ffd700;
+@media screen and (min-width: 1920px) {
+  html {
+    background-color: #022c43;
+    color: #ffd700;
+  }
+  
+  .titre-Aceuil {
+    font-family: Georgia, serif;
+    padding: 400px 0 300px 100px;
+    line-height: 60px;
+    font-size: 60px;
+  }
+  
+  .Image-Projet {
+    width: 400px;
+  }
+  
+  .TétedePage {
+    background-color: #ffd700;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: #022c43;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .Titre-Cate2 {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  button {
+    display: inline-block;
+    background-color: #022c43;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: green;
+  }
+  
+  button span {
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .EntreDeux {
+    width: 150px;
+    height: 50px;
+  }
+  
+  .Presentation {
+    display: flex;
+    font-size: 30px;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  
+  .Text-Presentation {
+    padding-left: 30px;
+  }
+  
+  .Titre-Cate {
+    padding-left: 100px;
+    font-size: 40px;
+  }
+  
+  .Image-Joel {
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .MyH5ai,
+  .Batllship {
+    display: flex;
+    font-size: 30px;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  
+  h3.titre {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 200px;
+  }
+  
+  .Image-Projet {
+    width: 700px;
+    object-fit: contain;
+  }
+  
+  .droit {
+    text-align: center;
+    color: #022c43;
+    padding: 30px;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  
+  #sectionContact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Texte-Projet {
+    text-align: left;
+  }
+  
+  .form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label.mail {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0 5px;
+  }
+  .mail {
+    margin-bottom: 20px;
+  }
+  input.mail,
+  textarea.mail {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0;
+    box-shadow: 0 0 5px rgba(66, 66, 66, 0.75);
+  }
+  
+  input.mail:focus,
+  textarea.mail:focus {
+    outline: none;
+  }
+  
+  button.mail {
+    display: inline-block;
+    background-color: #022c43;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 291px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover.mail {
+    background-color: #5cbf2a;
+  }
+  
+  button:active.mail {
+    position: relative;
+    outline: none;
+    top: 1px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section {
+    flex: 2;
+  }
+  .lientel {
+    font-size: 20px;
+  }
+  .lientel,
+  .lientel1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #022c43;
+    color: #ffd700;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .lientel:hover,
+  .lientel1:hover {
+    background-color: #555;
+  }
+  
+  .lientel1 {
+    margin-left: 1300px;
+  }
+  footer {
+    background-color: #ffd700;
+  }
 }
+@media screen and (max-width: 425px) {
+  body {
+    margin: 0;
+  }
+  html {
+    background-color: #022c43;
+    color: #ffd700;
+  }
+  .TétedePage {
 
-.titre-Aceuil {
-  font-family: Georgia, serif;
-  padding: 400px 0 300px 100px;
-  line-height: 60px;
-  font-size: 60px;
-}
-
-.Image-Projet {
-  width: 400px;
-}
-
-.TétedePage {
-  background-color: #ffd700;
-  height: 100px;
-  display: flex;
-  justify-content: space-around;
-  color: #022c43;
-}
-
-body {
-  margin: 0;
-}
-
-.Titre-Cate2 {
-  text-align: center;
-  font-size: 40px;
-}
-
-button {
-  display: inline-block;
-  background-color: #022c43;
-  border-radius: 10px;
-  border: 4px double #cccccc;
-  color: #eeeeee;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 300px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-button:hover {
-  background-color: green;
-}
-
-button span {
-  cursor: pointer;
-  display: inline-block;
-}
-
-.EntreDeux {
-  width: 150px;
-  height: 50px;
-}
-
-.Presentation {
-  display: flex;
-  font-size: 30px;
-  padding: 20px;
-  justify-content: space-around;
-}
-
-.Text-Presentation {
-  padding-left: 30px;
-}
-
-.Titre-Cate {
-  padding-left: 100px;
-  font-size: 40px;
-}
-
-.Image-Joel {
-  width: 100%;
-  object-fit: contain;
-}
-
-.MyH5ai,
-.Batllship {
-  display: flex;
-  font-size: 30px;
-  padding: 20px;
-  justify-content: space-around;
-}
-
-h3.titre {
-  font-size: 30px;
-  text-align: center;
-  padding-top: 200px;
-}
-
-.Image-Projet {
-  width: 700px;
-  object-fit: contain;
-}
-
-.droit {
-  text-align: center;
-  color: #022c43;
-  padding: 30px;
-  margin: 0px;
-  margin-top: 30px;
-}
-
-#sectionContact {
-  display: flex;
-  flex-direction: column;
-}
-
-.Texte-Projet {
-  text-align: left;
-}
-
-.form {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-}
-
-label.mail {
-  font-size: 16px;
-  font-weight: 600;
-  margin: 10px 0 5px;
-}
-.mail {
-  margin-bottom: 20px;
-}
-input.mail,
-textarea.mail {
-  padding: 5px;
-  font-size: 16px;
-  border: 1px solid #cccccc;
-  background-color: #ffffff;
-  color: #000000;
-  border-radius: 0;
-  box-shadow: 0 0 5px rgba(66, 66, 66, 0.75);
-}
-
-input.mail:focus,
-textarea.mail:focus {
-  outline: none;
-}
-
-button.mail {
-  display: inline-block;
-  background-color: #022c43;
-  border-radius: 10px;
-  border: 4px double #cccccc;
-  color: #eeeeee;
-  text-align: center;
-  font-size: 28px;
-  padding: 10px;
-  width: 291px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-button:hover.mail {
-  background-color: #5cbf2a;
-}
-
-button:active.mail {
-  position: relative;
-  outline: none;
-  top: 1px;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.section {
-  flex: 2;
-}
-.lientel {
-  font-size: 20px;
-}
-.lientel,
-.lientel1 {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #022c43;
-  color: #ffd700;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.lientel:hover,
-.lientel1:hover {
-  background-color: #555;
-}
-
-.lientel1 {
-  margin-left: 1300px;
-}
-footer {
-  background-color: #ffd700;
+    background-color: #ffd700;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: #022c43;
+  }
+  button {
+    display: inline-block;
+    background-color: #022c43;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: green;
+  }
+  .Image-Joel {
+    width: 30%;
+    object-fit: contain;
+  }
+  .Image-Projet {
+    width: 30%;
+    object-fit: contain;
+  }
+  label.mail {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0 5px;
+  }
+  .mail {
+    margin-bottom: 20px;
+  }
+  input.mail,
+  textarea.mail {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0;
+    box-shadow: 0 0 5px rgba(66, 66, 66, 0.75);
+  }
+  
+  input.mail:focus,
+  textarea.mail:focus {
+    outline: none;
+  }
+  
+  button.mail {
+    display: inline-block;
+    background-color: #022c43;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 291px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover.mail {
+    background-color: #5cbf2a;
+  }
+  
+  button:active.mail {
+    position: relative;
+    outline: none;
+    top: 1px;
+  }
 }
