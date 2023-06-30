@@ -7,6 +7,7 @@ import Presentation from "./components/Presentation";
 import Myh5ai from "./components/Myh5ai";
 import Battleship from "./components/Battlship";
 import Puissance4 from "./components/puissance4";
+import Spotify from "./components/spotify";
 
 function App() {
   const scrollIntoSection = (sectionId) => {
@@ -76,6 +77,8 @@ function App() {
           <Battleship />
           {/* projet puissance4 */}
           <Puissance4 />
+          {/* projet Spotify */}
+          <Spotify />
         </section>
         <h2 className="Titre-Cate2">Contact</h2>
         <section id="sectionContact">
