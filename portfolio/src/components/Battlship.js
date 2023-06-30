@@ -10,12 +10,7 @@ const Battleship = () => {
         <div>
             <Slide triggerOnce={true} duration={2000}>
             <p className="Texte-Projet">
-            J'ai repris un projet inachevé qui consistait à développer un jeu de bataille navale. 
-            J'ai dû déboguer le code existant et le terminer. Le projet était en cours de réalisation, mais n'avait pas été complété. 
-            La principale difficulté résidait dans le débogage du code, étant donné que je devais reprendre un code que je ne connaissais pas au départ. 
-            Malgré ces obstacles, j'ai réussi à finaliser le projet avec succès. 
-            J'ai également profité des bonnes pratiques d'architecture et des astuces de code mises en place par le développeur précédent, ce qui m'a beaucoup inspiré. 
-            Pour faciliter la gestion des modifications, j'ai effectué des "commits atomiques", ce qui m'a permis de revenir en arrière si nécessaire.
+            J'ai repris un projet inachevé de jeu de bataille navale, débogué et finalisé avec succès. Malgré les difficultés initiales, j'ai utilisé les bonnes pratiques et astuces de code du développeur précédent. J'ai effectué des "commits atomiques" pour faciliter la gestion des modifications.
             </p>
             </Slide>
         </div>

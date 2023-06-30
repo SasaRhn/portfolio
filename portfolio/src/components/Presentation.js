@@ -13,17 +13,14 @@ const Presentation = () => {
     <img className="Image-Joel" src={Joel} alt="Joel" />
     <div className={`textpre ${expanded ? 'expanded' : 'collapsed'}`}>
       <Slide triggerOnce={true} direction="right" duration={1000}>
-        <p>
-        Sabri Rehouni est un étudiant passionné de jeux vidéo qui a fait le choix de se reconvertir dans la programmation informatique et se spécialise dans le développement web et les serveurs.
+        <p>         
+        Salut tout le monde ! Je suis Sabri Rehouni, un étudiant de première année à Epitech, actuellement à la recherche d'une alternance de septembre 2023 a novembre 2024. 
+        Après avoir obtenu un Bac Pro dans le Génie civil, j'ai décidé de faire un changement radical en me tournant vers la programmation informatique.
         </p>
+        
 
         {expanded && (
           <>
-
-          <p className="Text-Presentation">
-          Salut tout le monde ! Je suis Sabri Rehouni, un étudiant de première année à Epitech, actuellement à la recherche d'une alternance. 
-          Après avoir obtenu un Bac Pro dans le Génie civil, j'ai décidé de faire un changement radical en me tournant vers la programmation informatique.
-          </p>
 
             <p className="Text-Presentation">
             Depuis que j'ai commencé mon aventure à Epitech, je me suis plongé entièrement dans le développement web. 

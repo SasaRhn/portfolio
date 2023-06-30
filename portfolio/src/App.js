@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import "./App.css";
 import { Slide } from "react-awesome-reveal";
@@ -77,7 +77,7 @@ function App() {
           <Battleship />
           {/* projet puissance4 */}
           <Puissance4 />
-          {/* projet Spotify */}
+          {/* projet spotify */}
           <Spotify />
         </section>
         <h2 className="Titre-Cate2">Contact</h2>

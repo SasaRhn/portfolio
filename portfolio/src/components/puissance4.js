@@ -5,16 +5,11 @@ import puissance4img from "../asset/puissance4.png";
 const Puissance4 = () => {
   return (
     <div>
-    <h3 className="titre">puissance4</h3>
+    <h3 className="titre">Puissance4</h3>
     <div className="MyH5ai">
       <Slide triggerOnce={true} duration={2000}>
         <p className="Texte-Projet">
-        Le projet est un jeu de Puissance 4 qui se joue à deux joueurs. 
-        La grille du jeu a des dimensions variables. 
-        Les joueurs placent tour à tour un pion dans la colonne de leur choix, qui coulisse jusqu'à la position la plus basse possible. 
-        Un joueur remporte la partie lorsqu'il aligne au moins 4 de ses pièces horizontalement, verticalement ou en diagonale. 
-        La partie se termine lorsqu'un joueur gagne, lorsque la grille est pleine sans possibilité de victoire, ou lorsqu'il n'y a plus de cases disponibles. 
-        Le projet est réalisé sous forme d'un plugin JavaScript modulable, avec la possibilité de spécifier le nombre de cases de la grille et les couleurs des joueurs.
+        Le projet est un jeu de Puissance 4 avec une grille modulable. Les joueurs placent tour à tour un pion dans une colonne, gagnant s'ils alignent 4 pièces. Le jeu se termine en cas de victoire, de grille pleine ou de cases épuisées. Réalisé en tant que plugin JavaScript, personnalisable avec taille de grille et couleurs des joueurs.
         </p>
       </Slide>
       <img className="Image-Projet" src={puissance4img} alt="puissance4" />
