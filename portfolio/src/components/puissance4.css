@@ -1,0 +1,28 @@
+.project-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .Image-Projet {
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s ease-in-out;
+    max-width: 400px;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .Image-Projet {
+      width: 400px;
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .Image-Projet {
+      width: 100%;
+      height: auto;
+      max-width: 30%;
+    }
+  }
+  
