@@ -14,7 +14,7 @@ const Presentation = () => {
     <div className={`textpre ${expanded ? 'expanded' : 'collapsed'}`}>
       <Slide triggerOnce={true} direction="right" duration={1000}>
         <p>         
-        Salut tout le monde ! Je suis Sabri Rehouni, un étudiant de première année à Epitech, actuellement à la recherche d'une alternance de septembre 2023 a novembre 2024. 
+        Bonjour tout le monde ! Je suis Sabri Rehouni, un étudiant de première année à Epitech, actuellement à la recherche d'une alternance de septembre 2023 a novembre 2024. 
         Après avoir obtenu un Bac Pro dans le Génie civil, j'ai décidé de faire un changement radical en me tournant vers la programmation informatique.
         </p>
         
